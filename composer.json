@@ -1,0 +1,18 @@
+{
+    "name": "maker55/wechatmsg",
+    "description": "wechat template message",
+    "type": "project",
+    "authors": [
+        {
+            "name": "maker55",
+            "email": "huko89888@qq.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Maker55\\":"src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
