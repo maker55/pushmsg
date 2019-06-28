@@ -11,7 +11,6 @@ class Http
         CURLOPT_CONNECTTIMEOUT => 30,
         CURLOPT_RETURNTRANSFER => true,
     ];
-
     public function __construct($option = [])
     {
         $this->ch = curl_init();
