@@ -39,5 +39,7 @@ if ($argv[1] != 'send') {
     });
 
     $client->connect('127.0.0.1', 9991, 30);
+    
+    $a = 0;
     $redis = \Maker55\Lib\Redis::getInstance(['host' => '127.0.0.1', 'port' => 6379]);
 }
